@@ -1,6 +1,0 @@
-2026-02-13 11:04:25.585 | stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-02-13-110425
-2026-02-13 11:05:01.047 | Installing package prerequisites
-2026-02-13 11:11:16.344 | Starting RabbitMQ
-2026-02-13 11:12:08.100 | Installing OpenStack project source
-2026-02-13 11:20:51.224 | Installing Tempest
-2026-02-13 11:20:56.608 | Configuring and starting MySQL
