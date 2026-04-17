@@ -1,0 +1,78 @@
+04:49:48 RT program started
+SHELL=/bin/sh
+PWD=/home/ubuntu
+LOGNAME=ubuntu
+XDG_SESSION_TYPE=tty
+HOME=/home/ubuntu
+LANG=C.UTF-8
+SSH_CONNECTION=10.132.44.110 48514 10.132.44.205 22
+XDG_SESSION_CLASS=user
+USER=ubuntu
+SHLVL=1
+XDG_SESSION_ID=1
+XDG_RUNTIME_DIR=/run/user/1000
+SSH_CLIENT=10.132.44.110 48514 22
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+_=/usr/bin/env
+04:49:48 RT We are inside agent gate
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  net-tools
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 204 kB of archives.
+After this operation, 811 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 net-tools amd64 2.10-0.1ubuntu4.4 [204 kB]
+Fetched 204 kB in 1s (175 kB/s)
+Selecting previously unselected package net-tools.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53164 files and directories currently installed.)
+Preparing to unpack .../net-tools_2.10-0.1ubuntu4.4_amd64.deb ...
+Unpacking net-tools (2.10-0.1ubuntu4.4) ...
+Setting up net-tools (2.10-0.1ubuntu4.4) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configured04:49:59 RT patch id: refs/changes/43/985043/1 - Calling various functions
+04:49:59 RT Inside install_packages
+Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
+Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1902 kB]
+Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [177 kB]
+Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [16.9 kB]
+Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1666 kB]
+Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [386 kB]
+Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:10 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [32.5 kB]
+Get:11 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:12 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7364 B]
+Get:13 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [10.6 kB]
+Get:14 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
+Get:15 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Get:16 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:17 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1608 kB]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.6 kB]
+Get:19 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [10.8 kB]
+Get:20 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1169 kB]
+Get:21 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [74.3 kB]
+Get:22 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2822 kB]
+Ign:23 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components
+Ign:24 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components
+Ign:23 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components
+Ign:24 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components
+Ign:23 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components
+Ign:24 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components
+Ign:23 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components
+Ign:24 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components
+Ign:23 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components
+Ign:24 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components
+Ign:23 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components
+Ign:24 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components
+Get:23 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [156 B]
+Err:24 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components
+  Connection failed [IP: 10.120.125.146 80]
+Ign:24 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components
+Err:24 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components
+  Connection failed [IP: 10.120.125.146 80]
+Fetched 10.3 MB in 15min 57s (10.7 kB/s)
+Reading package lists...
