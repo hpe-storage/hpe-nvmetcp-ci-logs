@@ -1,0 +1,2376 @@
+21:17:24 RT program started
+SHELL=/bin/sh
+PWD=/home/ubuntu
+LOGNAME=ubuntu
+XDG_SESSION_TYPE=tty
+HOME=/home/ubuntu
+LANG=C.UTF-8
+SSH_CONNECTION=10.132.44.110 46544 10.132.44.206 22
+XDG_SESSION_CLASS=user
+USER=ubuntu
+SHLVL=1
+XDG_SESSION_ID=1
+XDG_RUNTIME_DIR=/run/user/1000
+SSH_CLIENT=10.132.44.110 46544 22
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+_=/usr/bin/env
+21:17:24 RT We are inside agent gate
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  net-tools
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 204 kB of archives.
+After this operation, 811 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 net-tools amd64 2.10-0.1ubuntu4.4 [204 kB]
+Fetched 204 kB in 3s (63.0 kB/s)
+Selecting previously unselected package net-tools.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53608 files and directories currently installed.)
+Preparing to unpack .../net-tools_2.10-0.1ubuntu4.4_amd64.deb ...
+Unpacking net-tools (2.10-0.1ubuntu4.4) ...
+Setting up net-tools (2.10-0.1ubuntu4.4) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configured21:17:37 RT patch id: refs/changes/12/994912/1 - Calling various functions
+21:17:37 RT Inside install_packages
+Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
+Get:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:4 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [781 kB]
+Get:5 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1171 kB]
+Hit:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease
+Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1033 kB]
+Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [17.4 kB]
+Fetched 3254 kB in 7s (485 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1 package can be upgraded. Run 'apt list --upgradable' to see it.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  python3-wheel
+Recommended packages:
+  build-essential python3-dev
+The following NEW packages will be installed:
+  python3-pip python3-wheel
+0 upgraded, 2 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1373 kB of archives.
+After this operation, 7270 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wheel all 0.42.0-2 [53.1 kB]
+Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 python3-pip all 24.0+dfsg-1ubuntu1.3 [1320 kB]
+Fetched 1373 kB in 4s (355 kB/s)
+Selecting previously unselected package python3-wheel.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53656 files and directories currently installed.)
+Preparing to unpack .../python3-wheel_0.42.0-2_all.deb ...
+Unpacking python3-wheel (0.42.0-2) ...
+Selecting previously unselected package python3-pip.
+Preparing to unpack .../python3-pip_24.0+dfsg-1ubuntu1.3_all.deb ...
+Unpacking python3-pip (24.0+dfsg-1ubuntu1.3) ...
+Setting up python3-wheel (0.42.0-2) ...
+Setting up python3-pip (24.0+dfsg-1ubuntu1.3) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configuredReading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libevent-2.1-7t64 libgnutls-dane0t64 libunbound8
+Suggested packages:
+  dns-root-data
+The following NEW packages will be installed:
+  gnutls-bin libevent-2.1-7t64 libgnutls-dane0t64 libunbound8
+0 upgraded, 4 newly installed, 0 to remove and 1 not upgraded.
+Need to get 883 kB of archives.
+After this operation, 2674 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libevent-2.1-7t64 amd64 2.1.12-stable-9ubuntu2 [145 kB]
+Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunbound8 amd64 1.19.2-1ubuntu3.8 [445 kB]
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.6 [23.5 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.6 [270 kB]
+Fetched 883 kB in 3s (337 kB/s)
+Selecting previously unselected package libevent-2.1-7t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54373 files and directories currently installed.)
+Preparing to unpack .../libevent-2.1-7t64_2.1.12-stable-9ubuntu2_amd64.deb ...
+Unpacking libevent-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) ...
+Selecting previously unselected package libunbound8:amd64.
+Preparing to unpack .../libunbound8_1.19.2-1ubuntu3.8_amd64.deb ...
+Unpacking libunbound8:amd64 (1.19.2-1ubuntu3.8) ...
+Selecting previously unselected package libgnutls-dane0t64:amd64.
+Preparing to unpack .../libgnutls-dane0t64_3.8.3-1.1ubuntu3.6_amd64.deb ...
+Unpacking libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.6) ...
+Selecting previously unselected package gnutls-bin.
+Preparing to unpack .../gnutls-bin_3.8.3-1.1ubuntu3.6_amd64.deb ...
+Unpacking gnutls-bin (3.8.3-1.1ubuntu3.6) ...
+Setting up libevent-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) ...
+Setting up libunbound8:amd64 (1.19.2-1ubuntu3.8) ...
+Setting up libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.6) ...
+Setting up gnutls-bin (3.8.3-1.1ubuntu3.6) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
+Disabling Ubuntu mode, explicit restart mode configuredCollecting hpe-storage-flowkit-py
+  Downloading hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl.metadata (5.7 kB)
+Downloading hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl (251 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 251.6/251.6 kB 3.4 MB/s eta 0:00:00
+Installing collected packages: hpe-storage-flowkit-py
+Successfully installed hpe-storage-flowkit-py-0.9.3
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  python3-distlib python3-filelock python3-pip-whl python3-platformdirs
+  python3-setuptools-whl python3-virtualenv python3-wheel-whl
+Recommended packages:
+  build-essential python3-dev python3-distutils
+The following NEW packages will be installed:
+  python3-distlib python3-filelock python3-pip-whl python3-platformdirs
+  python3-setuptools-whl python3-virtualenv python3-wheel-whl virtualenv
+0 upgraded, 8 newly installed, 0 to remove and 1 not upgraded.
+Need to get 2909 kB of archives.
+After this operation, 4545 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-distlib all 0.3.8-1 [318 kB]
+Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-filelock all 3.13.1-1 [10.8 kB]
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 python3-pip-whl all 24.0+dfsg-1ubuntu1.3 [1707 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-platformdirs all 4.2.0-1 [16.1 kB]
+Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 python3-setuptools-whl all 68.1.2-2ubuntu1.2 [716 kB]
+Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wheel-whl all 0.42.0-2 [67.8 kB]
+Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-virtualenv all 20.25.0+ds-2 [70.8 kB]
+Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 virtualenv all 20.25.0+ds-2 [1978 B]
+Fetched 2909 kB in 9s (312 kB/s)
+Selecting previously unselected package python3-distlib.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54412 files and directories currently installed.)
+Preparing to unpack .../0-python3-distlib_0.3.8-1_all.deb ...
+Unpacking python3-distlib (0.3.8-1) ...
+Selecting previously unselected package python3-filelock.
+Preparing to unpack .../1-python3-filelock_3.13.1-1_all.deb ...
+Unpacking python3-filelock (3.13.1-1) ...
+Selecting previously unselected package python3-pip-whl.
+Preparing to unpack .../2-python3-pip-whl_24.0+dfsg-1ubuntu1.3_all.deb ...
+Unpacking python3-pip-whl (24.0+dfsg-1ubuntu1.3) ...
+Selecting previously unselected package python3-platformdirs.
+Preparing to unpack .../3-python3-platformdirs_4.2.0-1_all.deb ...
+Unpacking python3-platformdirs (4.2.0-1) ...
+Selecting previously unselected package python3-setuptools-whl.
+Preparing to unpack .../4-python3-setuptools-whl_68.1.2-2ubuntu1.2_all.deb ...
+Unpacking python3-setuptools-whl (68.1.2-2ubuntu1.2) ...
+Selecting previously unselected package python3-wheel-whl.
+Preparing to unpack .../5-python3-wheel-whl_0.42.0-2_all.deb ...
+Unpacking python3-wheel-whl (0.42.0-2) ...
+Selecting previously unselected package python3-virtualenv.
+Preparing to unpack .../6-python3-virtualenv_20.25.0+ds-2_all.deb ...
+Unpacking python3-virtualenv (20.25.0+ds-2) ...
+Selecting previously unselected package virtualenv.
+Preparing to unpack .../7-virtualenv_20.25.0+ds-2_all.deb ...
+Unpacking virtualenv (20.25.0+ds-2) ...
+Setting up python3-setuptools-whl (68.1.2-2ubuntu1.2) ...
+Setting up python3-filelock (3.13.1-1) ...
+Setting up python3-pip-whl (24.0+dfsg-1ubuntu1.3) ...
+Setting up python3-distlib (0.3.8-1) ...
+Setting up python3-platformdirs (4.2.0-1) ...
+Setting up python3-wheel-whl (0.42.0-2) ...
+Setting up python3-virtualenv (20.25.0+ds-2) ...
+Setting up virtualenv (20.25.0+ds-2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configuredReading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  nvme-cli
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 680 kB of archives.
+After this operation, 1729 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 nvme-cli amd64 2.8-1ubuntu0.1 [680 kB]
+Fetched 680 kB in 6s (122 kB/s)
+Selecting previously unselected package nvme-cli.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54632 files and directories currently installed.)
+Preparing to unpack .../nvme-cli_2.8-1ubuntu0.1_amd64.deb ...
+Unpacking nvme-cli (2.8-1ubuntu0.1) ...
+Setting up nvme-cli (2.8-1ubuntu0.1) ...
+Created symlink /etc/systemd/system/default.target.wants/nvmefc-boot-connections.service → /usr/lib/systemd/system/nvmefc-boot-connections.service.
+Created symlink /etc/systemd/system/default.target.wants/nvmf-autoconnect.service → /usr/lib/systemd/system/nvmf-autoconnect.service.
+nvmf-connect-nbft.service is a disabled or a static unit, not starting it.
+nvmf-connect.target is a disabled or a static unit, not starting it.
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configurednvme_tcp               86016  0
+nvme_fabrics           36864  1 nvme_tcp
+nvme_keyring           20480  2 nvme_tcp,nvme_fabrics
+nvme_core             212992  2 nvme_tcp,nvme_fabrics
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  vlan
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 10.4 kB of archives.
+After this operation, 51.2 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 vlan all 2.0.5ubuntu5 [10.4 kB]
+Fetched 10.4 kB in 3s (4006 B/s)
+Selecting previously unselected package vlan.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54839 files and directories currently installed.)
+Preparing to unpack .../vlan_2.0.5ubuntu5_all.deb ...
+Unpacking vlan (2.0.5ubuntu5) ...
+Setting up vlan (2.0.5ubuntu5) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configuredReading package lists...
+Building dependency tree...
+Reading state information...
+net-tools is already the newest version (2.10-0.1ubuntu4.4).
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+21:19:16 RT Inside clone_projects
+21:19:16 RT git clone master
+21:19:21 RT Inside configure_interface
+21:20:31 RT Inside run_stack
+10.132.44.205
+21:20:31 RT Run stack.sh
+#includedir /etc/sudoers.d
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3.12 is already the newest version (3.12.3-1ubuntu0.13).
+python3.12 set to manually installed.
+The following additional packages will be installed:
+  libc-dev-bin libc6-dev libcrypt-dev libexpat1-dev libpython3.12-dev
+  linux-libc-dev rpcsvc-proto zlib1g-dev
+Suggested packages:
+  glibc-doc manpages-dev
+Recommended packages:
+  manpages-dev libc-devtools
+The following NEW packages will be installed:
+  libc-dev-bin libc6-dev libcrypt-dev libexpat1-dev libpython3.12-dev
+  linux-libc-dev python3.12-dev rpcsvc-proto zlib1g-dev
+0 upgraded, 9 newly installed, 0 to remove and 1 not upgraded.
+Need to get 11.0 MB of archives.
+After this operation, 54.3 MB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-dev-bin amd64 2.39-0ubuntu8.7 [20.4 kB]
+Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-124.124 [1,442 kB]
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libcrypt-dev amd64 1:4.4.36-4build1 [112 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 rpcsvc-proto amd64 1.4.2-0ubuntu7 [67.4 kB]
+Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev amd64 2.39-0ubuntu8.7 [2,124 kB]
+Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1-dev amd64 2.6.1-2ubuntu0.4 [140 kB]
+Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 zlib1g-dev amd64 1:1.3.dfsg-3.1ubuntu2.1 [894 kB]
+Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-dev amd64 3.12.3-1ubuntu0.13 [5,682 kB]
+Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-dev amd64 3.12.3-1ubuntu0.13 [498 kB]
+Fetched 11.0 MB in 39s (284 kB/s)
+Selecting previously unselected package libc-dev-bin.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54854 files and directories currently installed.)
+Preparing to unpack .../0-libc-dev-bin_2.39-0ubuntu8.7_amd64.deb ...
+Unpacking libc-dev-bin (2.39-0ubuntu8.7) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../1-linux-libc-dev_6.8.0-124.124_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (6.8.0-124.124) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../2-libcrypt-dev_1%3a4.4.36-4build1_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.36-4build1) ...
+Selecting previously unselected package rpcsvc-proto.
+Preparing to unpack .../3-rpcsvc-proto_1.4.2-0ubuntu7_amd64.deb ...
+Unpacking rpcsvc-proto (1.4.2-0ubuntu7) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../4-libc6-dev_2.39-0ubuntu8.7_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.39-0ubuntu8.7) ...
+Selecting previously unselected package libexpat1-dev:amd64.
+Preparing to unpack .../5-libexpat1-dev_2.6.1-2ubuntu0.4_amd64.deb ...
+Unpacking libexpat1-dev:amd64 (2.6.1-2ubuntu0.4) ...
+Selecting previously unselected package zlib1g-dev:amd64.
+Preparing to unpack .../6-zlib1g-dev_1%3a1.3.dfsg-3.1ubuntu2.1_amd64.deb ...
+Unpacking zlib1g-dev:amd64 (1:1.3.dfsg-3.1ubuntu2.1) ...
+Selecting previously unselected package libpython3.12-dev:amd64.
+Preparing to unpack .../7-libpython3.12-dev_3.12.3-1ubuntu0.13_amd64.deb ...
+Unpacking libpython3.12-dev:amd64 (3.12.3-1ubuntu0.13) ...
+Selecting previously unselected package python3.12-dev.
+Preparing to unpack .../8-python3.12-dev_3.12.3-1ubuntu0.13_amd64.deb ...
+Unpacking python3.12-dev (3.12.3-1ubuntu0.13) ...
+Setting up linux-libc-dev:amd64 (6.8.0-124.124) ...
+Setting up rpcsvc-proto (1.4.2-0ubuntu7) ...
+Setting up libcrypt-dev:amd64 (1:4.4.36-4build1) ...
+Setting up libc-dev-bin (2.39-0ubuntu8.7) ...
+Setting up libc6-dev:amd64 (2.39-0ubuntu8.7) ...
+Setting up libexpat1-dev:amd64 (2.6.1-2ubuntu0.4) ...
+Setting up zlib1g-dev:amd64 (1:1.3.dfsg-3.1ubuntu2.1) ...
+Setting up libpython3.12-dev:amd64 (3.12.3-1ubuntu0.13) ...
+Setting up python3.12-dev (3.12.3-1ubuntu0.13) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configuredtput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:510                       exec
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:518                       echo_summary 'stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-06-25-212136'
+++./stack.sh:main:510                       /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /tmp/devstack_logs/devstacklog.txt.2026-06-25-212136.summary.2026-06-25-212136
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:echo_summary:462               [[ -t 3 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:echo_summary:468               echo -e stack.sh log /tmp/devstack_logs/devstacklog.txt.2026-06-25-212136
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:520                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-06-25-212136 /tmp/devstack_logs/devstacklog.txt
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:521                       ln -sf /tmp/devstack_logs/devstacklog.txt.2026-06-25-212136.summary.2026-06-25-212136 /tmp/devstack_logs/devstacklog.txt.summary
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:536                       check_path_perm_sanity /opt/stack
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions:check_path_perm_sanity:615      local real_path
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions:check_path_perm_sanity:616      readlink -f /opt/stack
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions:check_path_perm_sanity:616      real_path=/opt/stack
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions:check_path_perm_sanity:617      local rebuilt_path=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions:check_path_perm_sanity:618      tr / ' '
+++functions:check_path_perm_sanity:618      echo /opt/stack
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions:check_path_perm_sanity:618      for i in $(echo ${real_path} | tr "/" " ")
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions:check_path_perm_sanity:619      rebuilt_path=/opt
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions:check_path_perm_sanity:621      stat -c %a /opt
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions:check_path_perm_sanity:621      [[ 755 = 700 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions:check_path_perm_sanity:618      for i in $(echo ${real_path} | tr "/" " ")
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions:check_path_perm_sanity:619      rebuilt_path=/opt/stack
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions:check_path_perm_sanity:621      stat -c %a /opt/stack
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions:check_path_perm_sanity:621      [[ 777 = 700 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:542                       trap exit_trap EXIT
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:583                       trap err_trap ERR
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:596                       set -o errexit
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:599                       uname -a
+Linux np0000094478 6.8.0-124-generic #124-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 13:00:45 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:602                       SSL_BUNDLE_FILE=/opt/stack/data/ca-bundle.pem
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:603                       rm -f /opt/stack/data/ca-bundle.pem
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:606                       source /opt/stack/devstack/lib/database
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:607                       source /opt/stack/devstack/lib/rpc_backend
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:610                       source /opt/stack/devstack/lib/host
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/host:source:12                        trueorfalse True ENABLE_KSM
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/host:source:12                        ENABLE_KSM=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/host:source:13                        trueorfalse True ENABLE_KSMTUNED
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/host:source:13                        ENABLE_KSMTUNED=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/host:source:56                        trueorfalse False ENABLE_ZSWAP
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/host:source:56                        ENABLE_ZSWAP=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/host:source:59                        ZSWAP_COMPRESSOR=lz4
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/host:source:60                        ZSWAP_ZPOOL=zsmalloc
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/host:source:82                        trueorfalse False ENABLE_SYSCTL_MEM_TUNING
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/host:source:82                        ENABLE_SYSCTL_MEM_TUNING=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/host:source:104                       trueorfalse False ENABLE_SYSCTL_NET_TUNING
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/host:source:104                       ENABLE_SYSCTL_NET_TUNING=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:613                       tune_host
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:tune_host:125                    configure_host_mem
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:configure_host_mem:99            configure_zswap
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:configure_zswap:69               [[ False == \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:configure_host_mem:100           configure_ksm
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:configure_ksm:39                 [[ True == \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:configure_ksm:40                 install_package ksmtuned
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:install_package:1438     update_package_repo
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:update_package_repo:1412  NO_UPDATE_REPOS=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:update_package_repo:1413  REPOS_UPDATED=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:update_package_repo:1414  RETRY_UPDATE=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:update_package_repo:1416  [[ False = \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:update_package_repo:1420  is_ubuntu
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:is_ubuntu:546            [[ -z deb ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:is_ubuntu:549            '[' deb = deb ']'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:update_package_repo:1421  apt_get_update
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get_update:1166      [[ False == \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get_update:1171      [[ False = \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get_update:1173      local sudo=sudo
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:apt_get_update:1174      id -u
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get_update:1174      [[ 1000 = \0 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get_update:1177      time_start apt-get-update
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_start:2406          local name=apt-get-update
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_start:2407          local start_time=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_start:2408          [[ -n '' ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:time_start:2411          date +%s%3N
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_start:2411          _TIME_START[$name]=1782422498335
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get_update:1179      local 'proxies=http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208 '
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get_update:1180      local 'update_cmd=sudo http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208  apt-get update'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get_update:1181      timeout 300 sh -c 'while ! sudo http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208  apt-get update; do sleep 30; done'
+Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get_update:1185      REPOS_UPDATED=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get_update:1187      time_stop apt-get-update
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2420           local name
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2421           local end_time
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2422           local elapsed_time
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2423           local total
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2424           local start_time
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2426           name=apt-get-update
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2427           start_time=1782422498335
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2429           [[ -z 1782422498335 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:time_stop:2432           date +%s%3N
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2432           end_time=1782422504012
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2433           elapsed_time=5677
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2434           total=0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2436           _TIME_START[$name]=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=5677
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:install_package:1439     real_install_package ksmtuned
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:real_install_package:1426  is_ubuntu
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:is_ubuntu:546            [[ -z deb ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:is_ubuntu:549            '[' deb = deb ']'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:real_install_package:1427  apt_get install ksmtuned
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get:1207             sudo DEBIAN_FRONTEND=noninteractive http_proxy=http://proxy-in.its.hpecorp.net:80 https_proxy=http://proxy-in.its.hpecorp.net:443 no_proxy=10.201.4.30,10.201.3.85,10.201.3.86,localhost,127.0.0.1,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208,localhost,127.0.0.1,10.201.4.30,10.201.4.31,10.201.4.32,10.201.4.33,10.201.4.34,10.201.3.86,10.201.1.221,172.28.65.17,172.28.65.18,172.28.65.207,172.28.65.208 apt-get --option Dpkg::Options::=--force-confold --assume-yes install ksmtuned
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Recommended packages:
+  qemu-kvm
+The following NEW packages will be installed:
+  ksmtuned
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 7,444 B of archives.
+After this operation, 44.0 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 ksmtuned amd64 4.20150326 [7,444 B]
+Fetched 7,444 B in 0s (20.5 kB/s)
+Selecting previously unselected package ksmtuned.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56807 files and directories currently installed.)
+Preparing to unpack .../ksmtuned_4.20150326_amd64.deb ...
+Unpacking ksmtuned (4.20150326) ...
+Setting up ksmtuned (4.20150326) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/ksm.service → /usr/lib/systemd/system/ksm.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ksmtuned.service → /usr/lib/systemd/system/ksmtuned.service.
+Disabling Ubuntu mode, explicit restart mode configured
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get:1211             result=0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get:1214             time_stop apt-get
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2420           local name
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2421           local end_time
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2422           local elapsed_time
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2423           local total
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2424           local start_time
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2426           name=apt-get
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2427           start_time=1782422504224
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2429           [[ -z 1782422504224 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:time_stop:2432           date +%s%3N
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2432           end_time=1782422510081
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2433           elapsed_time=5857
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2434           total=46181
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2436           _TIME_START[$name]=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_stop:2437           _TIME_TOTAL[$name]=52038
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:apt_get:1215             return 0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/host:configure_ksm:42                 bool_to_int ENABLE_KSM
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:configure_ksm:42                 set_sysfs_parameter ksm 0 /sys/kernel/mm/ksm/run
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:set_sysfs_parameter:15           local name=ksm
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:set_sysfs_parameter:16           local value=0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:set_sysfs_parameter:17           local param_file=/sys/kernel/mm/ksm/run
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:set_sysfs_parameter:19           [[ ! -e /sys/kernel/mm/ksm/run ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:set_sysfs_parameter:24           echo 0
+tput: No value for $TERM and no -T specified
++lib/host:set_sysfs_parameter:24           sudo tee /sys/kernel/mm/ksm/run
+0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:configure_host_mem:101           configure_sysctl_mem_parmaters
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:configure_sysctl_mem_parmaters:84  [[ False == \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:tune_host:126                    configure_host_net
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:configure_host_net:121           configure_sysctl_net_parmaters
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/host:configure_sysctl_net_parmaters:106  [[ False == \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:619                       fetch_plugins
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:fetch_plugins:1766       local plugins=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:fetch_plugins:1767       local plugin
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:fetch_plugins:1770       [[ -z '' ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:fetch_plugins:1771       return
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:623                       run_phase override_defaults
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1848           local mode=override_defaults
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1849           local phase=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1850           [[ -d /opt/stack/devstack/extras.d ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1851           local extra_plugin_file_name
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1852           for extra_plugin_file_name in $TOP_DIR/extras.d/*.sh
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1857           local exceptions=80-tempest.sh
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1858           local extra
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:run_phase:1859           basename /opt/stack/devstack/extras.d/80-tempest.sh
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1859           extra=80-tempest.sh
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1860           [[ 80-tempest.sh =~ 80-tempest\.sh ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1864           [[ -r /opt/stack/devstack/extras.d/80-tempest.sh ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1864           source /opt/stack/devstack/extras.d/80-tempest.sh override_defaults
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:3           is_service_enabled tempest
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:is_service_enabled:2076  return 0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:4           [[ override_defaults == \s\o\u\r\c\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:7           [[ override_defaults == \s\t\a\c\k ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:10          [[ override_defaults == \s\t\a\c\k ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:13          [[ override_defaults == \s\t\a\c\k ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:16          [[ override_defaults == \s\t\a\c\k ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:19          [[ override_defaults == \s\t\a\c\k ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:27          [[ override_defaults == \u\n\s\t\a\c\k ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:32          [[ override_defaults == \c\l\e\a\n ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1869           [[ override_defaults == \s\o\u\r\c\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1872           [[ override_defaults == \o\v\e\r\r\i\d\e\_\d\e\f\a\u\l\t\s ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1873           plugin_override_defaults
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:plugin_override_defaults:1807  local plugins=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:plugin_override_defaults:1808  local plugin
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:plugin_override_defaults:1811  [[ -z '' ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:plugin_override_defaults:1812  return
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:626                       source /opt/stack/devstack/lib/apache
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:629                       source /opt/stack/devstack/lib/tls
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:38                         is_service_enabled tls-proxy
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:is_service_enabled:2076  return 1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/tls:source:43                         hostname -f
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:43                         DEVSTACK_HOSTNAME=localhost
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:44                         DEVSTACK_CERT_NAME=devstack-cert
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:45                         DEVSTACK_CERT=/opt/stack/data/devstack-cert.pem
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:48                         ROOT_CA_DIR=/opt/stack/data/CA/root-ca
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:49                         INT_CA_DIR=/opt/stack/data/CA/int-ca
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:51                         ORG_NAME=OpenStack
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:52                         ORG_UNIT_NAME=DevStack
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:55                         STUD_PROTO=--tls
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:56                         STUD_CIPHERS='TLSv1+HIGH:!DES:!aNULL:!eNULL:@STRENGTH'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/tls:source:63                         OPENSSL=/usr/bin/openssl
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:632                       source /opt/stack/devstack/lib/infra
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:633                       source /opt/stack/devstack/lib/libraries
+tput: tput: No value for $TERM and no -T specifiedNo value for $TERM and no -T specified
+
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:634                       source /opt/stack/devstack/lib/lvm
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:635                       source /opt/stack/devstack/lib/horizon
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:636                       source /opt/stack/devstack/lib/keystone
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:637                       source /opt/stack/devstack/lib/glance
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:638                       source /opt/stack/devstack/lib/nova
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:639                       source /opt/stack/devstack/lib/placement
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:640                       source /opt/stack/devstack/lib/cinder
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:641                       source /opt/stack/devstack/lib/swift
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:642                       source /opt/stack/devstack/lib/neutron
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:61                     is_service_enabled tls-proxy
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:is_service_enabled:2076  return 1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:66                     GITDIR["python-neutronclient"]=/opt/stack/python-neutronclient
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:68                     NEUTRON_DIR=/opt/stack/neutron
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:69                     NEUTRON_FWAAS_DIR=/opt/stack/neutron-fwaas
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:72                     [[ -d /opt/stack/neutron/bin/neutron-server ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron:source:75                     get_python_exec_prefix
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++inc/python:get_python_exec_prefix:80      [[ True == \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++inc/python:get_python_exec_prefix:81      echo /opt/stack/data/venv/bin
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:75                     NEUTRON_BIN_DIR=/opt/stack/data/venv/bin
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:78                     NEUTRON_CONF_DIR=/etc/neutron
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:79                     NEUTRON_CONF=/etc/neutron/neutron.conf
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:80                     export NEUTRON_TEST_CONFIG_FILE=/etc/neutron/debug.ini
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:80                     NEUTRON_TEST_CONFIG_FILE=/etc/neutron/debug.ini
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:82                     NEUTRON_UWSGI=neutron.wsgi.api:application
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:83                     NEUTRON_UWSGI_CONF=/etc/neutron/neutron-api-uwsgi.ini
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron:source:89                     trueorfalse True NEUTRON_ENFORCE_SCOPE
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:89                     NEUTRON_ENFORCE_SCOPE=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:93                     AGENT_DHCP_BINARY=/opt/stack/data/venv/bin/neutron-dhcp-agent
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:94                     AGENT_L3_BINARY=/opt/stack/data/venv/bin/neutron-l3-agent
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:95                     AGENT_META_BINARY=/opt/stack/data/venv/bin/neutron-metadata-agent
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:99                     Q_DHCP_CONF_FILE=/etc/neutron/dhcp_agent.ini
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:102                    NEUTRON_DHCP_CONF=/etc/neutron/dhcp_agent.ini
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:103                    Q_L3_CONF_FILE=/etc/neutron/l3_agent.ini
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:106                    NEUTRON_L3_CONF=/etc/neutron/l3_agent.ini
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:107                    Q_META_CONF_FILE=/etc/neutron/metadata_agent.ini
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:110                    Q_DB_NAME=neutron
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:112                    Q_PLUGIN=ml2
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:114                    Q_HOST=10.132.44.205
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:116                    Q_PROTOCOL=http
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron:source:118                    ipv6_unquote 0.0.0.0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++functions-common:ipv6_unquote:2218        tr -d '[]'
++++functions-common:ipv6_unquote:2218        echo 0.0.0.0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:118                    Q_LISTEN_ADDRESS=0.0.0.0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:120                    Q_ADMIN_USERNAME=neutron
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:122                    Q_AUTH_STRATEGY=keystone
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:124                    Q_OVS_USE_VETH=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:125                    Q_USE_ROOTWRAP=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron:source:126                    trueorfalse True Q_USE_ROOTWRAP_DAEMON
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:126                    Q_USE_ROOTWRAP_DAEMON=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron:source:128                    ipv6_unquote 10.132.44.205
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++functions-common:ipv6_unquote:2218        echo 10.132.44.205
+tput: No value for $TERM and no -T specified
++++functions-common:ipv6_unquote:2218        tr -d '[]'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:128                    Q_META_DATA_IP=10.132.44.205
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:130                    Q_ALLOW_OVERLAPPING_IP=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:131                    Q_NOTIFY_NOVA_PORT_STATUS_CHANGES=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:132                    Q_NOTIFY_NOVA_PORT_DATA_CHANGES=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:133                    VIF_PLUGGING_IS_FATAL=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:134                    VIF_PLUGGING_TIMEOUT=300
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:137                    SKIP_STOP_OVN=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:141                    _Q_PLUGIN_EXTRA_CONF_PATH=/etc/neutron
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:144                    NEUTRON_ENDPOINT_SERVICE_NAME=networking
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:145                    [[ -z networking ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:150                    ALEMBIC_REPO=https://github.com/sqlalchemy/alembic.git
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:151                    ALEMBIC_DIR=/opt/stack/alembic
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:152                    ALEMBIC_BRANCH=main
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:153                    SQLALCHEMY_REPO=https://github.com/sqlalchemy/sqlalchemy.git
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:154                    SQLALCHEMY_DIR=/opt/stack/sqlalchemy
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:155                    SQLALCHEMY_BRANCH=main
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:166                    declare -a -g Q_PLUGIN_EXTRA_CONF_FILES
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:169                    declare -a -g _Q_PLUGIN_EXTRA_CONF_FILES_ABS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:172                    Q_RR_CONF_FILE=/etc/neutron/rootwrap.conf
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:173                    [[ True == \F\a\l\s\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron:source:176                    get_rootwrap_location neutron
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++functions:get_rootwrap_location:601       local module=neutron
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++++functions:get_rootwrap_location:603       get_python_exec_prefix
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++++inc/python:get_python_exec_prefix:80      [[ True == \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++++inc/python:get_python_exec_prefix:81      echo /opt/stack/data/venv/bin
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++functions:get_rootwrap_location:603       echo /opt/stack/data/venv/bin/neutron-rootwrap
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:176                    NEUTRON_ROOTWRAP=/opt/stack/data/venv/bin/neutron-rootwrap
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:177                    Q_RR_COMMAND='sudo /opt/stack/data/venv/bin/neutron-rootwrap /etc/neutron/rootwrap.conf'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:178                    [[ True == \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:179                    Q_RR_DAEMON_COMMAND='sudo /opt/stack/data/venv/bin/neutron-rootwrap-daemon /etc/neutron/rootwrap.conf'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:191                    Q_DVR_MODE=legacy
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:192                    [[ legacy != \l\e\g\a\c\y ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:208                    ENABLE_TENANT_TUNNELS=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:213                    TENANT_TUNNEL_RANGES=1:1000
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:218                    ENABLE_TENANT_VLANS=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:226                    TENANT_VLAN_RANGE=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:234                    PHYSICAL_NETWORK=public
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:244                    OVS_PHYSICAL_BRIDGE=br-ex
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:250                    OVS_ENABLE_TUNNELING=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:254                    ENABLE_ISOLATED_METADATA=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:259                    ENABLE_METADATA_NETWORK=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:264                    '[' -f /opt/stack/devstack/lib/neutron_plugins/ml2 ']'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:265                    source /opt/stack/devstack/lib/neutron_plugins/ml2
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:272                    source /opt/stack/devstack/lib/neutron_plugins/services/metering
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:275                    source /opt/stack/devstack/lib/neutron_plugins/services/l3
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:3  IP_VERSION=4
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:5  [[ 4 != \4 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:9  NEUTRON_CREATE_INITIAL_NETWORKS=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:12  PROVIDER_SUBNET_NAME=provider_net
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:13  IPV6_PROVIDER_SUBNET_NAME=provider_net_v6
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:14  IPV6_PROVIDER_FIXED_RANGE=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:15  IPV6_PROVIDER_NETWORK_GATEWAY=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:17  PUBLIC_BRIDGE=br-ex
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:18  PUBLIC_BRIDGE_MTU=1500
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:23  Q_ASSIGN_GATEWAY_TO_PUBLIC_BRIDGE=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:26  Q_ROUTER_NAME=router1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:31  Q_USE_PUBLIC_VETH=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:32  Q_PUBLIC_VETH_EX=veth-pub-ex
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:33  Q_PUBLIC_VETH_INT=veth-pub-int
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:39  Q_L3_ROUTER_PER_TENANT=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:72  Q_USE_PROVIDERNET_FOR_PUBLIC=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:73  PUBLIC_PHYSICAL_NETWORK=public
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:76  uuidgen
+tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:76  cut -c 23-
+tput: No value for $TERM and no -T specified
+tput: ++++lib/neutron_plugins/services/l3:source:76  sed s/-//g
+No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:76  sed -e 's/\(..\)\(....\)\(....\)/\1:\2:\3/'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:76  IPV6_GLOBAL_ID=9a:da33:ff7f
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:79  IPV6_RA_MODE=slaac
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:80  IPV6_ADDRESS_MODE=slaac
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:81  IPV6_PUBLIC_SUBNET_NAME=ipv6-public-subnet
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:82  IPV6_PRIVATE_SUBNET_NAME=ipv6-private-subnet
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:83  IPV6_ADDRS_SAFE_TO_USE=fd9a:da33:ff7f::/56
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:86  awk -F / '{ print $1"/"($2>63 ? $2 : 64) }'
+++++lib/neutron_plugins/services/l3:source:86  echo fd9a:da33:ff7f::/56
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:86  FIXED_RANGE_V6=fd9a:da33:ff7f::/64
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:87  IPV6_PRIVATE_NETWORK_GATEWAY=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:88  IPV6_PUBLIC_RANGE=2001:db8::/64
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:89  IPV6_PUBLIC_NETWORK_GATEWAY=2001:db8::2
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:90  IPV6_ROUTER_GW_IP=2001:db8::1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:93  NETWORK_GATEWAY=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:94  PUBLIC_NETWORK_GATEWAY=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:95  PRIVATE_SUBNET_NAME=private-subnet
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:96  PUBLIC_SUBNET_NAME=public-subnet
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:97  PUBLIC_SUBNET_ENABLE_DHCP=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:100  USE_SUBNETPOOL=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:101  SUBNETPOOL_NAME_V4=shared-default-subnetpool-v4
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:102  SUBNETPOOL_NAME_V6=shared-default-subnetpool-v6
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:104  SUBNETPOOL_PREFIX_V4=10.0.0.0/22
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:105  SUBNETPOOL_PREFIX_V6=fd9a:da33:ff7f::/56
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:107  SUBNETPOOL_SIZE_V4=26
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:108  SUBNETPOOL_SIZE_V6=64
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:110  ip -4 route
+++++lib/neutron_plugins/services/l3:source:110  awk '{print $5}'
+++++lib/neutron_plugins/services/l3:source:110  grep '^default'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:110  default_v4_route_devs=ens3
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:112  grep via
+tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:112  ip -6 route list match default table all
+tput: No value for $TERM and no -T specified
+++++lib/neutron_plugins/services/l3:source:112  awk '{print $5}'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/neutron_plugins/services/l3:source:112  default_v6_route_devs=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:278                    source /opt/stack/devstack/lib/neutron_plugins/services/placement
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:279                    source /opt/stack/devstack/lib/neutron_plugins/services/trunk
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:280                    source /opt/stack/devstack/lib/neutron_plugins/services/qos
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:281                    source /opt/stack/devstack/lib/neutron_plugins/services/segments
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:282                    source /opt/stack/devstack/lib/neutron_plugins/services/ovn-bgp
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:285                    has_neutron_plugin_security_group
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron_plugins/ml2:has_neutron_plugin_security_group:146  return 0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:286                    Q_USE_SECGROUP=True
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/neutron:source:294                    OVN_BRIDGE_MAPPINGS=public:br-ex
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:643                       source /opt/stack/devstack/lib/ldap
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:644                       source /opt/stack/devstack/lib/dstat
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:645                       source /opt/stack/devstack/lib/atop
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: tput: No value for $TERM and no -T specifiedNo value for $TERM and no -T specified
+
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:646                       source /opt/stack/devstack/lib/tcpdump
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:647                       source /opt/stack/devstack/lib/etcd3
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:648                       source /opt/stack/devstack/lib/os-vif
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/os-vif:source:12                      is_ml2_ovs
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/os-vif:is_ml2_ovs:4                   [[ ovn == \o\p\e\n\v\s\w\i\t\c\h ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/os-vif:is_ml2_ovs:7                   echo False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/os-vif:source:12                      OS_VIF_OVS_ISOLATE_VIF=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++++lib/os-vif:source:13                      trueorfalse False OS_VIF_OVS_ISOLATE_VIF
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/os-vif:source:13                      OS_VIF_OVS_ISOLATE_VIF=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:654                       run_phase source
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1848           local mode=source
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1849           local phase=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1850           [[ -d /opt/stack/devstack/extras.d ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1851           local extra_plugin_file_name
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1852           for extra_plugin_file_name in $TOP_DIR/extras.d/*.sh
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1857           local exceptions=80-tempest.sh
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1858           local extra
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:run_phase:1859           basename /opt/stack/devstack/extras.d/80-tempest.sh
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1859           extra=80-tempest.sh
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1860           [[ 80-tempest.sh =~ 80-tempest\.sh ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1864           [[ -r /opt/stack/devstack/extras.d/80-tempest.sh ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1864           source /opt/stack/devstack/extras.d/80-tempest.sh source
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:3           is_service_enabled tempest
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:is_service_enabled:2076  return 0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:4           [[ source == \s\o\u\r\c\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:6           source /opt/stack/devstack/lib/tempest
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:27          [[ source == \u\n\s\t\a\c\k ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++extras.d/80-tempest.sh:source:32          [[ source == \c\l\e\a\n ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1869           [[ source == \s\o\u\r\c\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1870           load_plugin_settings
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:load_plugin_settings:1784  local plugins=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:load_plugin_settings:1785  local plugin
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:load_plugin_settings:1788  [[ -z '' ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:load_plugin_settings:1789  return
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:run_phase:1871           verify_disabled_services
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2131  local service
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,key, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-api, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-cpu, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-cond, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-sch, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-novnc, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,n-api-meta, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,placement-api, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,placement-client, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,g-api, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,c-sch, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,c-api, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,c-vol, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,ovn-controller, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,ovn-northd, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,ovs-vswitchd, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,ovsdb-server, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,q-svc, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,q-ovn-agent, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,rabbit, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,tempest, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,mysql, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,etcd3, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,dstat, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,cinder, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2132  for service in ${ENABLED_SERVICES//,/ }
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:verify_disabled_services:2133  [[ ,n-net,horizon,heat,h-api,h-api-cfn,h-api-cw, =~ ,c-bak, ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:725                       initialize_database_backends
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:65  for backend in $DATABASE_BACKENDS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:66  is_service_enabled mysql
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:is_service_enabled:2076  return 0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:66  DATABASE_TYPE=mysql
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:65  for backend in $DATABASE_BACKENDS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:66  is_service_enabled postgresql
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:is_service_enabled:2076  return 1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:69  '[' -z mysql ']'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:73  MYSQL_HOST=127.0.0.1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:74  MYSQL_USER=root
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:80  [[ 4 == 6 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:83  DATABASE_HOST=127.0.0.1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:86  DATABASE_USER=root
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:88  '[' -n '' ']'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:initialize_database_backends:92  return 0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:726                       echo 'Using mysql database backend'
+Using mysql database backend
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:729                       read_password DATABASE_PASSWORD 'ENTER A PASSWORD TO USE FOR THE DATABASE.'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:731                       define_database_baseurl
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/database:define_database_baseurl:106  get_database_type_mysql
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/databases/mysql:get_database_type_mysql:32  [[ PyMySQL == \P\y\M\y\S\Q\L ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++lib/databases/mysql:get_database_type_mysql:33  echo mysql+pymysql
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++lib/database:define_database_baseurl:106  BASE_SQL_CONN=mysql+pymysql://root:hpinvent@127.0.0.1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:743                       is_service_enabled rabbit
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:is_service_enabled:2076  return 0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:744                       read_password RABBIT_PASSWORD 'ENTER A PASSWORD TO USE FOR RABBIT.'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:751                       is_service_enabled keystone
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:is_service_enabled:2076  return 0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:753                       read_password SERVICE_PASSWORD 'ENTER A SERVICE_PASSWORD TO USE FOR THE SERVICE AUTHENTICATION.'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:755                       read_password ADMIN_PASSWORD 'ENTER A PASSWORD TO USE FOR HORIZON AND KEYSTONE (20 CHARS OR LESS).'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:766                       is_service_enabled ldap
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:is_service_enabled:2076  return 1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:775                       is_service_enabled s-proxy
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:is_service_enabled:2076  return 1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:787                       save_stackenv 787
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:65         local tag=787
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:save_stackenv:67         date +%F-%H%M%S
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:67         time_stamp=2026-06-25-212159
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:68         echo '# 2026-06-25-212159 787'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo BASE_SQL_CONN=mysql+pymysql://root:hpinvent@127.0.0.1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo DATA_DIR=/opt/stack/data
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo DEST=/opt/stack
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo ENABLED_SERVICES=key,n-api,n-cpu,n-cond,n-sch,n-novnc,n-api-meta,placement-api,placement-client,g-api,c-sch,c-api,c-vol,ovn-controller,ovn-northd,ovs-vswitchd,ovsdb-server,q-svc,q-ovn-agent,rabbit,tempest,mysql,etcd3,dstat,cinder,c-bak
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo HOST_IP=10.132.44.205
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo KEYSTONE_SERVICE_URI=http://10.132.44.205/identity
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo LOGFILE=/tmp/devstack_logs/devstacklog.txt.2026-06-25-212136
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo OS_CACERT=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo SERVICE_HOST=10.132.44.205
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo STACK_USER=ubuntu
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo TLS_IP=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo HOST_IPV6=::1
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo SERVICE_IP_VERSION=4
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo TUNNEL_ENDPOINT_IP=10.132.44.205
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:69         for i in $STACK_ENV_VARS
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:save_stackenv:70         echo TUNNEL_IP_VERSION=4
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:800                       GIT_DEPTH=0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++./stack.sh:main:800                       git_clone http://github.com/openstack/requirements.git /opt/stack/requirements master
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:589            local git_remote=http://github.com/openstack/requirements.git
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:590            local git_dest=/opt/stack/requirements
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:591            local git_ref=master
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:592            local orig_dir
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:git_clone:593            pwd
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:593            orig_dir=/opt/stack/devstack
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:594            local git_clone_flags=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:git_clone:596            trueorfalse False RECLONE
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:596            RECLONE=False
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:597            [[ 0 -gt 0 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:601            [[ False = \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:610            echo master
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:610            egrep -q '^refs'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:624            [[ ! -d /opt/stack/requirements ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:625            [[ False = \T\r\u\e ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_clone:630            git_timed clone --no-checkout http://github.com/openstack/requirements.git /opt/stack/requirements
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_timed:697            local count=0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_timed:698            local timeout=0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_timed:700            [[ -n 0 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_timed:701            timeout=0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_timed:704            time_start git_timed
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_start:2406          local name=git_timed
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_start:2407          local start_time=
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_start:2408          [[ -n '' ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+++functions-common:time_start:2411          date +%s%3N
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:time_start:2411          _TIME_START[$name]=1782422520678
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_timed:705            timeout -s SIGINT 0 git clone --no-checkout http://github.com/openstack/requirements.git /opt/stack/requirements
+Cloning into '/opt/stack/requirements'...
+warning: redirecting to https://github.com/openstack/requirements.git/
+error: RPC failed; curl 56 Recv failure: Connection reset by peer
+error: 2601 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_timed:708            [[ 128 -ne 124 ]]
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:git_timed:709            die 709 'git call failed: [git clone' --no-checkout http://github.com/openstack/requirements.git '/opt/stack/requirements]'
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++functions-common:die:290                  local exitcode=0
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+[Call Trace]
+./stack.sh:800:git_clone
+/opt/stack/devstack/functions-common:630:git_timed
+/opt/stack/devstack/functions-common:709:die
+[ERROR] /opt/stack/devstack/functions-common:709 git call failed: [git clone --no-checkout http://github.com/openstack/requirements.git /opt/stack/requirements]
+Error on exit
