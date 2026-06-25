@@ -1,0 +1,218 @@
+20:11:43 RT program started
+SHELL=/bin/sh
+PWD=/home/ubuntu
+LOGNAME=ubuntu
+XDG_SESSION_TYPE=tty
+HOME=/home/ubuntu
+LANG=C.UTF-8
+SSH_CONNECTION=10.132.44.110 46516 10.132.44.206 22
+XDG_SESSION_CLASS=user
+USER=ubuntu
+SHLVL=1
+XDG_SESSION_ID=1
+XDG_RUNTIME_DIR=/run/user/1000
+SSH_CLIENT=10.132.44.110 46516 22
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+_=/usr/bin/env
+20:11:43 RT We are inside agent gate
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  net-tools
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 204 kB of archives.
+After this operation, 811 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 net-tools amd64 2.10-0.1ubuntu4.4 [204 kB]
+Fetched 204 kB in 1s (160 kB/s)
+Selecting previously unselected package net-tools.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53608 files and directories currently installed.)
+Preparing to unpack .../net-tools_2.10-0.1ubuntu4.4_amd64.deb ...
+Unpacking net-tools (2.10-0.1ubuntu4.4) ...
+Setting up net-tools (2.10-0.1ubuntu4.4) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configured20:11:54 RT patch id: refs/changes/10/994910/1 - Calling various functions
+20:11:54 RT Inside install_packages
+Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble InRelease
+Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-backports InRelease
+Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1033 kB]
+Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [17.4 kB]
+Fetched 1176 kB in 2s (582 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  python3-wheel
+Recommended packages:
+  build-essential python3-dev
+The following NEW packages will be installed:
+  python3-pip python3-wheel
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1373 kB of archives.
+After this operation, 7270 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wheel all 0.42.0-2 [53.1 kB]
+Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 python3-pip all 24.0+dfsg-1ubuntu1.3 [1320 kB]
+Fetched 1373 kB in 1s (1334 kB/s)
+Selecting previously unselected package python3-wheel.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 53656 files and directories currently installed.)
+Preparing to unpack .../python3-wheel_0.42.0-2_all.deb ...
+Unpacking python3-wheel (0.42.0-2) ...
+Selecting previously unselected package python3-pip.
+Preparing to unpack .../python3-pip_24.0+dfsg-1ubuntu1.3_all.deb ...
+Unpacking python3-pip (24.0+dfsg-1ubuntu1.3) ...
+Setting up python3-wheel (0.42.0-2) ...
+Setting up python3-pip (24.0+dfsg-1ubuntu1.3) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configuredReading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libevent-2.1-7t64 libgnutls-dane0t64 libunbound8
+Suggested packages:
+  dns-root-data
+The following NEW packages will be installed:
+  gnutls-bin libevent-2.1-7t64 libgnutls-dane0t64 libunbound8
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 883 kB of archives.
+After this operation, 2674 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 libevent-2.1-7t64 amd64 2.1.12-stable-9ubuntu2 [145 kB]
+Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libunbound8 amd64 1.19.2-1ubuntu3.8 [445 kB]
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgnutls-dane0t64 amd64 3.8.3-1.1ubuntu3.6 [23.5 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gnutls-bin amd64 3.8.3-1.1ubuntu3.6 [270 kB]
+Fetched 883 kB in 1s (631 kB/s)
+Selecting previously unselected package libevent-2.1-7t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54373 files and directories currently installed.)
+Preparing to unpack .../libevent-2.1-7t64_2.1.12-stable-9ubuntu2_amd64.deb ...
+Unpacking libevent-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) ...
+Selecting previously unselected package libunbound8:amd64.
+Preparing to unpack .../libunbound8_1.19.2-1ubuntu3.8_amd64.deb ...
+Unpacking libunbound8:amd64 (1.19.2-1ubuntu3.8) ...
+Selecting previously unselected package libgnutls-dane0t64:amd64.
+Preparing to unpack .../libgnutls-dane0t64_3.8.3-1.1ubuntu3.6_amd64.deb ...
+Unpacking libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.6) ...
+Selecting previously unselected package gnutls-bin.
+Preparing to unpack .../gnutls-bin_3.8.3-1.1ubuntu3.6_amd64.deb ...
+Unpacking gnutls-bin (3.8.3-1.1ubuntu3.6) ...
+Setting up libevent-2.1-7t64:amd64 (2.1.12-stable-9ubuntu2) ...
+Setting up libunbound8:amd64 (1.19.2-1ubuntu3.8) ...
+Setting up libgnutls-dane0t64:amd64 (3.8.3-1.1ubuntu3.6) ...
+Setting up gnutls-bin (3.8.3-1.1ubuntu3.6) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.7) ...
+Disabling Ubuntu mode, explicit restart mode configuredCollecting hpe-storage-flowkit-py
+  Downloading hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl.metadata (5.7 kB)
+Downloading hpe_storage_flowkit_py-0.9.3-py2.py3-none-any.whl (251 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 251.6/251.6 kB 5.8 MB/s eta 0:00:00
+Installing collected packages: hpe-storage-flowkit-py
+Successfully installed hpe-storage-flowkit-py-0.9.3
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  python3-distlib python3-filelock python3-pip-whl python3-platformdirs
+  python3-setuptools-whl python3-virtualenv python3-wheel-whl
+Recommended packages:
+  build-essential python3-dev python3-distutils
+The following NEW packages will be installed:
+  python3-distlib python3-filelock python3-pip-whl python3-platformdirs
+  python3-setuptools-whl python3-virtualenv python3-wheel-whl virtualenv
+0 upgraded, 8 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2909 kB of archives.
+After this operation, 4545 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-distlib all 0.3.8-1 [318 kB]
+Get:2 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-filelock all 3.13.1-1 [10.8 kB]
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 python3-pip-whl all 24.0+dfsg-1ubuntu1.3 [1707 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu noble/main amd64 python3-platformdirs all 4.2.0-1 [16.1 kB]
+Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/universe amd64 python3-setuptools-whl all 68.1.2-2ubuntu1.2 [716 kB]
+Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-wheel-whl all 0.42.0-2 [67.8 kB]
+Get:7 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 python3-virtualenv all 20.25.0+ds-2 [70.8 kB]
+Get:8 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 virtualenv all 20.25.0+ds-2 [1978 B]
+Fetched 2909 kB in 4s (791 kB/s)
+Selecting previously unselected package python3-distlib.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54412 files and directories currently installed.)
+Preparing to unpack .../0-python3-distlib_0.3.8-1_all.deb ...
+Unpacking python3-distlib (0.3.8-1) ...
+Selecting previously unselected package python3-filelock.
+Preparing to unpack .../1-python3-filelock_3.13.1-1_all.deb ...
+Unpacking python3-filelock (3.13.1-1) ...
+Selecting previously unselected package python3-pip-whl.
+Preparing to unpack .../2-python3-pip-whl_24.0+dfsg-1ubuntu1.3_all.deb ...
+Unpacking python3-pip-whl (24.0+dfsg-1ubuntu1.3) ...
+Selecting previously unselected package python3-platformdirs.
+Preparing to unpack .../3-python3-platformdirs_4.2.0-1_all.deb ...
+Unpacking python3-platformdirs (4.2.0-1) ...
+Selecting previously unselected package python3-setuptools-whl.
+Preparing to unpack .../4-python3-setuptools-whl_68.1.2-2ubuntu1.2_all.deb ...
+Unpacking python3-setuptools-whl (68.1.2-2ubuntu1.2) ...
+Selecting previously unselected package python3-wheel-whl.
+Preparing to unpack .../5-python3-wheel-whl_0.42.0-2_all.deb ...
+Unpacking python3-wheel-whl (0.42.0-2) ...
+Selecting previously unselected package python3-virtualenv.
+Preparing to unpack .../6-python3-virtualenv_20.25.0+ds-2_all.deb ...
+Unpacking python3-virtualenv (20.25.0+ds-2) ...
+Selecting previously unselected package virtualenv.
+Preparing to unpack .../7-virtualenv_20.25.0+ds-2_all.deb ...
+Unpacking virtualenv (20.25.0+ds-2) ...
+Setting up python3-setuptools-whl (68.1.2-2ubuntu1.2) ...
+Setting up python3-filelock (3.13.1-1) ...
+Setting up python3-pip-whl (24.0+dfsg-1ubuntu1.3) ...
+Setting up python3-distlib (0.3.8-1) ...
+Setting up python3-platformdirs (4.2.0-1) ...
+Setting up python3-wheel-whl (0.42.0-2) ...
+Setting up python3-virtualenv (20.25.0+ds-2) ...
+Setting up virtualenv (20.25.0+ds-2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configuredReading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  nvme-cli
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 680 kB of archives.
+After this operation, 1729 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble-updates/main amd64 nvme-cli amd64 2.8-1ubuntu0.1 [680 kB]
+Fetched 680 kB in 0s (1379 kB/s)
+Selecting previously unselected package nvme-cli.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54632 files and directories currently installed.)
+Preparing to unpack .../nvme-cli_2.8-1ubuntu0.1_amd64.deb ...
+Unpacking nvme-cli (2.8-1ubuntu0.1) ...
+Setting up nvme-cli (2.8-1ubuntu0.1) ...
+Created symlink /etc/systemd/system/default.target.wants/nvmefc-boot-connections.service → /usr/lib/systemd/system/nvmefc-boot-connections.service.
+Created symlink /etc/systemd/system/default.target.wants/nvmf-autoconnect.service → /usr/lib/systemd/system/nvmf-autoconnect.service.
+nvmf-connect-nbft.service is a disabled or a static unit, not starting it.
+nvmf-connect.target is a disabled or a static unit, not starting it.
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configurednvme_tcp               86016  0
+nvme_fabrics           36864  1 nvme_tcp
+nvme_keyring           20480  2 nvme_tcp,nvme_fabrics
+nvme_core             212992  2 nvme_tcp,nvme_fabrics
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  vlan
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 10.4 kB of archives.
+After this operation, 51.2 kB of additional disk space will be used.
+Get:1 http://nova.clouds.archive.ubuntu.com/ubuntu noble/universe amd64 vlan all 2.0.5ubuntu5 [10.4 kB]
+Fetched 10.4 kB in 1s (14.0 kB/s)
+Selecting previously unselected package vlan.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 54839 files and directories currently installed.)
+Preparing to unpack .../vlan_2.0.5ubuntu5_all.deb ...
+Unpacking vlan (2.0.5ubuntu5) ...
+Setting up vlan (2.0.5ubuntu5) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Disabling Ubuntu mode, explicit restart mode configuredReading package lists...
+Building dependency tree...
+Reading state information...
+net-tools is already the newest version (2.10-0.1ubuntu4.4).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+20:13:11 RT Inside clone_projects
+20:13:11 RT git clone master
