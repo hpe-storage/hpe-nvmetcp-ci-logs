@@ -1,0 +1,353 @@
+
+File System Summary
+===================
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           795M  988K  794M   1% /run
+/dev/vda1        75G  2.5G   70G   4% /
+tmpfs           3.9G     0  3.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           795M   12K  795M   1% /run/user/1000
+
+
+Process Listing
+===============
+
+ps axo user,ppid,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,args
+---------------------------------------------------------------
+
+USER        PPID     PID %CPU %MEM    VSZ   RSS TT       STAT  STARTED     TIME COMMAND
+root           0       1  0.1  0.1  22540 13648 ?        Ss   17:07:38 00:00:05 /sbin/init
+root           0       2  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [kthreadd]
+root           2       3  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [pool_workqueue_release]
+root           2       4  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-rcu_g]
+root           2       5  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-rcu_p]
+root           2       6  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-slub_]
+root           2       7  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-netns]
+root           2       9  0.0  0.0      0     0 ?        I    17:07:38 00:00:00 [kworker/0:1-events]
+root           2      10  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/0:0H-events_highpri]
+root           2      12  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-mm_pe]
+root           2      13  0.0  0.0      0     0 ?        I    17:07:38 00:00:00 [rcu_tasks_kthread]
+root           2      14  0.0  0.0      0     0 ?        I    17:07:38 00:00:00 [rcu_tasks_rude_kthread]
+root           2      15  0.0  0.0      0     0 ?        I    17:07:38 00:00:00 [rcu_tasks_trace_kthread]
+root           2      16  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [ksoftirqd/0]
+root           2      17  0.1  0.0      0     0 ?        I    17:07:38 00:00:03 [rcu_preempt]
+root           2      18  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [migration/0]
+root           2      19  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [idle_inject/0]
+root           2      20  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [cpuhp/0]
+root           2      21  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [cpuhp/1]
+root           2      22  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [idle_inject/1]
+root           2      23  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [migration/1]
+root           2      24  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [ksoftirqd/1]
+root           2      26  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/1:0H-events_highpri]
+root           2      27  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [cpuhp/2]
+root           2      28  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [idle_inject/2]
+root           2      29  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [migration/2]
+root           2      30  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [ksoftirqd/2]
+root           2      32  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/2:0H-events_highpri]
+root           2      33  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [cpuhp/3]
+root           2      34  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [idle_inject/3]
+root           2      35  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [migration/3]
+root           2      36  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [ksoftirqd/3]
+root           2      38  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/3:0H-events_highpri]
+root           2      39  0.0  0.0      0     0 ?        I    17:07:38 00:00:00 [kworker/u9:0-events_power_efficient]
+root           2      41  0.0  0.0      0     0 ?        I    17:07:38 00:00:00 [kworker/u11:0-events_power_efficient]
+root           2      43  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [kdevtmpfs]
+root           2      44  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-inet_]
+root           2      45  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [kauditd]
+root           2      46  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [khungtaskd]
+root           2      47  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [oom_reaper]
+root           2      48  0.0  0.0      0     0 ?        I    17:07:38 00:00:00 [kworker/u9:1-events_power_efficient]
+root           2      49  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-write]
+root           2      51  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [kcompactd0]
+root           2      52  0.0  0.0      0     0 ?        SN   17:07:38 00:00:00 [ksmd]
+root           2      54  0.0  0.0      0     0 ?        SN   17:07:38 00:00:00 [khugepaged]
+root           2      55  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-kinte]
+root           2      56  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-kbloc]
+root           2      57  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-blkcg]
+root           2      58  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [irq/9-acpi]
+root           2      60  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-tpm_d]
+root           2      61  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-ata_s]
+root           2      62  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-md]
+root           2      63  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-md_bi]
+root           2      64  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-edac-]
+root           2      65  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-devfr]
+root           2      66  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [watchdogd]
+root           2      67  0.0  0.0      0     0 ?        I    17:07:38 00:00:00 [kworker/u10:1-events_unbound]
+root           2      68  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-quota]
+root           2      69  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/1:1H-kblockd]
+root           2      70  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [kswapd0]
+root           2      71  0.0  0.0      0     0 ?        S    17:07:38 00:00:00 [ecryptfs-kthread]
+root           2      72  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-kthro]
+root           2      73  0.0  0.0      0     0 ?        I<   17:07:38 00:00:00 [kworker/R-acpi_]
+root           2      74  0.0  0.0      0     0 ?        S    17:07:39 00:00:00 [scsi_eh_0]
+root           2      75  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/R-scsi_]
+root           2      76  0.0  0.0      0     0 ?        S    17:07:39 00:00:00 [scsi_eh_1]
+root           2      77  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/R-scsi_]
+root           2      79  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/R-mld]
+root           2      80  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/0:1H-kblockd]
+root           2      81  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/R-ipv6_]
+root           2      82  0.0  0.0      0     0 ?        I    17:07:39 00:00:00 [kworker/u8:1-ext4-rsv-conversion]
+root           2      89  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/R-kstrp]
+root           2      92  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/u13:0]
+root           2      93  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/u14:0]
+root           2      94  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/u15:0]
+root           2      95  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/u16:0]
+root           2      96  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/u17:0]
+root           2     102  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/R-crypt]
+root           2     112  0.0  0.0      0     0 ?        I    17:07:39 00:00:00 [kworker/u11:1-events_unbound]
+root           2     113  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/R-charg]
+root           2     137  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/3:1H-kblockd]
+root           2     141  0.0  0.0      0     0 ?        I<   17:07:39 00:00:00 [kworker/2:1H-kblockd]
+root           2     168  0.0  0.0      0     0 ?        S    17:07:39 00:00:00 [hwrng]
+root           2     212  0.0  0.0      0     0 ?        I<   17:07:41 00:00:00 [kworker/R-raid5]
+root           2     223  0.0  0.0      0     0 ?        I    17:07:41 00:00:00 [kworker/0:2-events]
+root           2     250  0.0  0.0      0     0 ?        S    17:07:41 00:00:00 [jbd2/vda1-8]
+root           2     251  0.0  0.0      0     0 ?        I<   17:07:41 00:00:00 [kworker/R-ext4-]
+root           1     324  0.0  0.1  50772 12168 ?        S<s  17:07:44 00:00:00 /usr/lib/systemd/systemd-journald
+root           2     367  0.0  0.0      0     0 ?        I<   17:07:44 00:00:00 [kworker/R-kmpat]
+root           2     368  0.0  0.0      0     0 ?        I<   17:07:44 00:00:00 [kworker/R-kmpat]
+root           1     378  0.0  0.3 288952 27292 ?        SLsl 17:07:44 00:00:00 /sbin/multipathd -d -s
+root           1     387  0.0  0.0  29076  7816 ?        Ss   17:07:45 00:00:00 /usr/lib/systemd/systemd-udevd
+root           2     397  0.0  0.0      0     0 ?        S    17:07:45 00:00:00 [psimon]
+systemd+       1     485  0.0  0.1  21460 12940 ?        Ss   17:07:45 00:00:00 /usr/lib/systemd/systemd-resolved
+systemd+       1     486  0.0  0.0  91028  8012 ?        Ssl  17:07:45 00:00:00 /usr/lib/systemd/systemd-timesyncd
+root           2     688  0.0  0.0      0     0 ?        I<   17:07:50 00:00:00 [kworker/R-cfg80]
+systemd+       1     775  0.0  0.1  19024  9680 ?        Ss   17:07:54 00:00:00 /usr/lib/systemd/systemd-networkd
+root           2     828  0.0  0.0      0     0 ?        I    17:07:55 00:00:00 [kworker/u10:4-events_power_efficient]
+root           1     860  0.0  0.0   7224  2816 ?        Ss   17:07:57 00:00:00 /usr/sbin/cron -f -P
+message+       1     861  0.0  0.0   9776  5492 ?        Ss   17:07:57 00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd        1     866  0.0  0.1 308164  8160 ?        Ssl  17:07:57 00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+root           1     873  0.0  0.1  17988  8856 ?        Ss   17:07:57 00:00:00 /usr/lib/systemd/systemd-logind
+root           1     875  0.0  0.1 468844 13516 ?        Ssl  17:07:57 00:00:00 /usr/libexec/udisks2/udisksd
+root           2     880  0.0  0.0      0     0 ?        I    17:07:57 00:00:00 [kworker/u8:2-ext4-rsv-conversion]
+root           1     903  0.0  0.0   6148  2156 ttyS0    Ss+  17:07:57 00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 - vt220
+root           1     906  0.0  0.2 110012 23072 ?        Ssl  17:07:57 00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root           2     912  0.0  0.0      0     0 ?        I    17:07:57 00:00:01 [kworker/3:3-events]
+root           1     915  0.0  0.0   6104  2036 tty1     Ss+  17:07:57 00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+syslog         1     920  0.0  0.0 222508  6144 ?        Ssl  17:07:57 00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root           1     967  0.0  0.1 318360 13048 ?        Ssl  17:07:58 00:00:00 /usr/sbin/ModemManager
+root           1    1087  0.0  0.1  12020  8288 ?        Ss   17:08:09 00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1087    1109  0.0  0.1  14736 10512 ?        Ss   17:08:27 00:00:00 sshd: ubuntu [priv]
+ubuntu         1    1114  0.0  0.1  20220 11340 ?        Ss   17:08:27 00:00:00 /usr/lib/systemd/systemd --user
+ubuntu      1114    1116  0.0  0.0  21160  3700 ?        S    17:08:27 00:00:00 (sd-pam)
+ubuntu      1109    1198  0.0  0.0  15164  7412 ?        S    17:08:29 00:00:00 sshd: ubuntu@notty
+ubuntu      1198    1421  0.0  0.0   2800  1852 ?        Ss   17:11:40 00:00:00 sh -c /bin/sh -c '/usr/bin/python3 && sleep 0'
+ubuntu      1421    1422  0.0  0.0   2800  1852 ?        S    17:11:40 00:00:00 /bin/sh -c /usr/bin/python3 && sleep 0
+ubuntu      1422    1423  0.0  0.3 112716 26628 ?        Sl   17:11:40 00:00:00 /usr/bin/python3
+ubuntu      1423    1424  0.0  0.0   2800  1916 ?        S    17:11:41 00:00:00 /bin/sh -c bash /tmp/nvmetcp/os-nvmetcp-gate/nvmetcp_job/gate.sh refs/changes/06/994906/1 > /tmp/nvmetcp/gate.log
+ubuntu      1424    1426  0.0  0.0   8004  3844 ?        S    17:11:41 00:00:00 bash /tmp/nvmetcp/os-nvmetcp-gate/nvmetcp_job/gate.sh refs/changes/06/994906/1
+root           2    2194  0.0  0.0      0     0 ?        I<   17:16:32 00:00:00 [kworker/R-tls-s]
+root           2    2572  0.0  0.0      0     0 ?        I<   17:16:47 00:00:00 [kworker/R-nvme-]
+root           2    2573  0.0  0.0      0     0 ?        I<   17:16:47 00:00:00 [kworker/R-nvme-]
+root           2    2575  0.0  0.0      0     0 ?        I<   17:16:47 00:00:00 [kworker/R-nvme-]
+root           2    2576  0.0  0.0      0     0 ?        I<   17:16:47 00:00:00 [kworker/R-nvme-]
+root           2    2584  0.0  0.0      0     0 ?        I    17:16:47 00:00:00 [kworker/1:3-events]
+root           2    2673  0.0  0.0      0     0 ?        I<   17:17:01 00:00:00 [kworker/R-nvme_]
+root           2    2882  0.0  0.0      0     0 ?        I    17:20:37 00:00:00 [kworker/2:3-events]
+ubuntu      1426    2975  0.1  0.1  14472 10712 ?        S    17:26:20 00:00:02 bash ./stack.sh
+root           2    5344  0.0  0.0      0     0 ?        I    17:26:59 00:00:00 [kworker/u9:2-events_unbound]
+root           2    5354  0.0  0.0      0     0 ?        I    17:35:06 00:00:00 [kworker/u11:3-events_power_efficient]
+root           2    5356  0.0  0.0      0     0 ?        I    17:35:12 00:00:00 [kworker/u12:2-flush-253:0]
+root           2    5360  0.0  0.0      0     0 ?        I    17:40:37 00:00:00 [kworker/2:1]
+root           2    5361  0.0  0.0      0     0 ?        I    17:40:42 00:00:00 [kworker/u12:1-events_power_efficient]
+ubuntu      2975    5766  0.0  0.1  20008 12528 ?        S    17:45:25 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -v --no-timestamp -o /tmp/devstack_logs/devstacklog.txt.2026-06-25-174525
+ubuntu      2975    5775  0.0  0.1  20008 12524 ?        S    17:45:25 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/outfilter.py -o /tmp/devstack_logs/devstacklog.txt.2026-06-25-174525.summary.2026-06-25-174525
+root           2    6275  0.0  0.0      0     0 ?        I    17:45:27 00:00:00 [kworker/3:0-cgroup_release]
+root           2    6618  0.0  0.0      0     0 ?        I    17:45:37 00:00:00 [kworker/u10:0-events_power_efficient]
+root           2    6660  0.0  0.0      0     0 ?        S    17:45:38 00:00:00 [psimon]
+root           2    6673  0.0  0.0      0     0 ?        I    17:45:38 00:00:00 [kworker/1:2-cgroup_release]
+root           1    6676  0.0  0.0   8388  3164 ?        S    17:45:38 00:00:00 /bin/bash /usr/sbin/ksmtuned
+root           2    9686  0.0  0.0      0     0 ?        I    17:46:03 00:00:00 [kworker/u12:3-flush-253:0]
+root        6676    9778  0.0  0.0   6112  2028 ?        S    17:58:39 00:00:00 sleep 60
+ubuntu      2975    9800 66.6  0.1  20324 13288 ?        S    17:58:50 00:00:00 /usr/bin/python3.12 /opt/stack/devstack/tools/worlddump.py -d /tmp/devstack_logs
+ubuntu      9800    9803  0.0  0.0   2800  1908 ?        S    17:58:50 00:00:00 /bin/sh -c ps axo user,ppid,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,args
+ubuntu      9803    9804  100  0.0  10884  4596 ?        R    17:58:50 00:00:00 ps axo user,ppid,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,args
+
+
+Network Dump
+============
+
+bridge link
+-----------
+
+
+ip link show type bridge
+------------------------
+
+
+ip neigh
+--------
+
+10.132.44.3 dev ens3 lladdr 08:f1:ea:60:48:00 STALE 
+10.132.44.2 dev ens3 lladdr 08:f1:ea:60:88:00 STALE 
+10.132.44.203 dev ens3 lladdr 30:3f:bb:67:51:06 STALE 
+10.132.44.110 dev ens3 lladdr 00:50:56:b9:7c:07 REACHABLE 
+10.132.44.250 dev ens3 lladdr dc:68:0c:3a:2a:68 STALE 
+10.132.44.1 dev ens3 lladdr 00:00:00:00:00:60 REACHABLE 
+fe80::4eae:a3ff:fe6d:559b dev ens4 lladdr 4c:ae:a3:6d:55:9b router STALE 
+
+ip addr
+-------
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: ens3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether fa:16:3e:83:53:9f brd ff:ff:ff:ff:ff:ff
+    altname enp0s3
+    inet 10.132.44.206/22 metric 100 brd 10.132.47.255 scope global dynamic ens3
+       valid_lft 40144sec preferred_lft 40144sec
+    inet6 fe80::f816:3eff:fe83:539f/64 scope link 
+       valid_lft forever preferred_lft forever
+3: ens4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether fa:16:3e:bb:d8:44 brd ff:ff:ff:ff:ff:ff
+    altname enp0s4
+    inet 172.28.1.215/19 brd 172.28.31.255 scope global ens4
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f816:3eff:febb:d844/64 scope link 
+       valid_lft forever preferred_lft forever
+4: ens5: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether fa:16:3e:e1:4d:d7 brd ff:ff:ff:ff:ff:ff
+    altname enp0s5
+5: ens3.10@ens3: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether fa:16:3e:83:53:9f brd ff:ff:ff:ff:ff:ff
+
+ip route
+--------
+
+default via 10.132.44.1 dev ens3 proto dhcp src 10.132.44.206 metric 100 
+10.132.44.0/22 dev ens3 proto kernel scope link src 10.132.44.206 metric 100 
+10.132.44.1 dev ens3 proto dhcp scope link src 10.132.44.206 metric 100 
+10.132.44.239 dev ens3 proto dhcp scope link src 10.132.44.206 metric 100 
+10.201.0.95 via 10.132.44.1 dev ens3 proto dhcp src 10.132.44.206 metric 100 
+169.254.169.254 via 10.132.44.239 dev ens3 proto dhcp src 10.132.44.206 metric 100 
+172.28.0.0/19 dev ens4 proto kernel scope link src 172.28.1.215 
+
+ip -6 route
+-----------
+
+fe80::/64 dev ens3 proto kernel metric 256 pref medium
+fe80::/64 dev ens4 proto kernel metric 256 pref medium
+
+ip netns
+--------
+
+
+
+Open vSwitch Dump
+=================
+
+*** ovs-vsctl not found: skipping
+
+IP Tables Dump
+==============
+
+sudo iptables --line-numbers -L -nv -t filter
+---------------------------------------------
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+sudo iptables --line-numbers -L -nv -t nat
+------------------------------------------
+
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+sudo iptables --line-numbers -L -nv -t mangle
+---------------------------------------------
+
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 0 packets, 0 bytes)
+num   pkts bytes target     prot opt in     out     source               destination         
+
+
+EB Tables Dump
+==============
+
+sudo ebtables -t filter -L
+--------------------------
+
+Bridge table: filter
+
+Bridge chain: INPUT, entries: 0, policy: ACCEPT
+
+Bridge chain: FORWARD, entries: 0, policy: ACCEPT
+
+Bridge chain: OUTPUT, entries: 0, policy: ACCEPT
+
+sudo ebtables -t nat -L
+-----------------------
+
+Bridge table: nat
+
+Bridge chain: PREROUTING, entries: 0, policy: ACCEPT
+
+Bridge chain: OUTPUT, entries: 0, policy: ACCEPT
+
+Bridge chain: POSTROUTING, entries: 0, policy: ACCEPT
+
+
+Compute consoles
+================
+
+
+nova-compute Guru Meditation Report
+===================================
+
+Skipping as nova-compute does not appear to be running
+
+neutron-dhcp-agent Guru Meditation Report
+=========================================
+
+Skipping as neutron-dhcp-agent does not appear to be running
+
+neutron-l3-agent Guru Meditation Report
+=======================================
+
+Skipping as neutron-l3-agent does not appear to be running
+
+neutron-metadata-agent Guru Meditation Report
+=============================================
+
+Skipping as neutron-metadata-agent does not appear to be running
+
+neutron-openvswitch-agent Guru Meditation Report
+================================================
+
+Skipping as neutron-openvswitch-agent does not appear to be running
+
+cinder-volume Guru Meditation Report
+====================================
+
+Skipping as cinder-volume does not appear to be running
